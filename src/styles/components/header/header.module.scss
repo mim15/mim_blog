@@ -1,0 +1,21 @@
+@import '../../variables.scss';
+
+.ly_header {
+  position: sticky;
+  display: grid;
+  grid-template-rows: 40px;
+  padding-top: 50px;
+  height: 90px;
+  top: 0;
+  @include mq-down(md) {
+    grid-template-rows: 40px;
+  }
+  grid-template-areas: "header";
+  z-index: 1000;
+  background-color: transparent;
+  .ly_header_inner {
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,27 @@
+@import '../../variables.scss';
+
+.ly_footer {
+  display: grid;
+  grid-template-rows: 50px 150px;
+  grid-template-areas: "margin margin margin" "padding footer padding";
+  z-index: 1000;
+  background-color: transparent;
+  .ly_footer_inner {
+    @include mq-up(lg) {
+      display: flex;
+      justify-content: space-between;
+    }
+    .ly_footercont_l {
+      display: flex;
+      @include mq-down(lg) {
+        justify-content: space-between;
+      }
+    }
+    .ly_footercont_r {
+      display: flex;
+      @include mq-down(lg) {
+        display: none;
+      }
+    }
+  }
+}

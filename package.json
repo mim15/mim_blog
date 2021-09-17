@@ -1,0 +1,28 @@
+{
+  "name": "amyblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.15",
+    "contentful": "9.0.0",
+    "dayjs": "1.10.7",
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-compare-image": "^3.1.0",
+    "react-dom": "17.0.2",
+    "sass": "1.39.2"
+  },
+  "devDependencies": {
+    "fslightbox-react": "^1.6.2-2"
+  }
+}

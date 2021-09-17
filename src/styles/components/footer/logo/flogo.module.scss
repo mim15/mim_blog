@@ -1,0 +1,16 @@
+@import '../../../variables.scss';
+
+.ly_footerConts_logo {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+  @include mq-down(md) {
+    margin-left: 30px;
+  }
+}
+
+.bl_footerConts_logo {
+  width: 30px;
+  height: auto;
+}

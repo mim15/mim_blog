@@ -1,0 +1,17 @@
+.hidden {
+  display: none;
+}
+.bl_headerNav_wrapper {
+  text-align: right;
+  margin-top: -10px;
+  .bl_headerNav_item {
+    display: block;
+    list-style: none;
+    position: relative;
+    margin-left: 0;
+    text-transform: uppercase;
+    .bl_headerNav_link {
+      font-size: 14px;
+    }
+  }
+}
